@@ -1,0 +1,86 @@
+<?php
+require_once("php/header.php");
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/plugin.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body class="bg">
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-3 site-name-container">
+                    <a href="#" class="site-name">EZ TUTOR</a>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-9">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                            <li><a href="">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="list-request">
+        <h3 class="inline-block">SIGN IN</h3>
+      </div><br><br>
+    <section class="white-bg section-padding-bottom">
+        <div class="section-header section-margin-top">
+
+            <div class="form">
+                <div id="Profile" class="tabcontent1 show">
+                    <form>
+                        <label for='user'>Email</label>
+                        <input type='text' id='uname' name='uname' title='Username' />
+                        <label for='user'>Password</label>
+                        <input type='password' id='umail' name='umail' title='Email' />
+
+                        <span class="break"></span>
+                        <input type="submit" value="Log In" class="btn_Submit1" />
+                        <p>Don't have an account?</p><a href="#">Sign Up Now</a>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

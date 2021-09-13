@@ -1,0 +1,1069 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.bg {
+    background: url("../images/bg.jpg");
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+select {
+    width: 100%;
+    background: transparent;
+    color: #1A1A1A;
+    border: none;
+    display: inline-block;
+    font: inherit;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 5px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+		font-weight: bold;
+}
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+	color: #1A1A1A;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+select.minimal:focus {
+    background-image: linear-gradient(45deg, #ccc 50%, transparent 50%), linear-gradient(135deg, transparent 50%, #ccc 50%);
+    background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: white;
+    color: black;
+    outline: 0;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid white;
+    color: #3A003A;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+.form {
+    color: white;
+    margin: 20px auto;
+    width: 619px;
+    height: 340px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.form .tabs {
+    display: block;
+    width: 100%;
+    height: 21px;
+    margin-bottom: 5px;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+
+}
+
+.form .tabs li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.form .tabs li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+    padding: 12px 22px;
+}
+
+.form .tabs li a:hover {
+    opacity: 0.8;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.form .tabs li:last-child a {
+    text-align: center;
+    width: 174px;
+    padding-left: 0;
+    padding-right: 0;
+    border-right: none;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.form .show {
+    display: block;
+}
+
+.form .hide {
+    display: none;
+}
+
+.tabcontent1 {
+    display: none;
+    padding: 15px 20px;
+    border-top: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.tabcontent1 {
+    background: #3A003A;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height: 330px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontent1 form {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.tabcontent {
+    display: none;
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    background: #3A003A;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height: 750px;
+    border-radius: 5px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontent form {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.tabcontent form input[type=text],
+.tabcontent form input[type=password],
+.tabcontent form input[type=submit] {
+
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.tabcontent form input[type=text],
+.tabcontent form input[type=password] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent form input.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 3px 1px #2075aa;
+    -webkit-box-shadow: 0px 3px 1px #2075aa;
+    box-shadow: 0px 3px 1px #2075aa;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.tabcontent form input.button:hover {
+    background: #1e75aa;
+    -moz-box-shadow: 0 3px 1px #237bb2;
+    -webkit-box-shadow: 0 3px 1px #237bb2;
+    box-shadow: 0 3px 1px #237bb2;
+}
+
+.tabcontent form input.button:active {
+    background: #136899;
+    @inclue box-shadow( 0 3px 1px #0f608c);
+}
+
+.tabcontent .show {
+    display: block;
+}
+
+.tabcontent .hide {
+    display: none;
+}
+
+.form .tabs li:nth-child(1) a {
+    background: #3A003A;
+}
+
+.tabcontent:nth-child(2) {
+    background: #3A003A;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form .tabs li:nth-child(2) a {
+    background: #CD5C5C;
+}
+
+.tabcontent:nth-child(3) {
+    background:#CD5C5C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tabcontent2:nth-child(3) {
+    background:#CD5C5C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form .tabs li:nth-child(3) a {
+    background: #068481;
+}
+
+.tabcontent:nth-child(4) {
+    background: #068481;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-request {
+    float: right;
+    margin: auto;
+    max-width: 820px;
+    width: 100%;
+}
+
+.tabcontent2 {
+    display: none;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent2 {
+    background: #3A003A;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height: 1020px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontent2 form {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.tabcontent2 form input[type=text],
+.tabcontent2 form input[type=password],
+.tabcontent2 form input[type=submit] {
+
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.tabcontent2 form input[type=text],
+.tabcontent2 form input[type=password] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent2 form select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 3px;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent2 form input.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 3px 1px #2075aa;
+    -webkit-box-shadow: 0px 3px 1px #2075aa;
+    box-shadow: 0px 3px 1px #2075aa;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.tabcontent2 form input.button:hover {
+    background: #1e75aa;
+    -moz-box-shadow: 0 3px 1px #237bb2;
+    -webkit-box-shadow: 0 3px 1px #237bb2;
+    box-shadow: 0 3px 1px #237bb2;
+}
+
+.tabcontent2 form input.button:active {
+    background: #136899;
+    @inclue box-shadow( 0 3px 1px #0f608c);
+}
+
+.tabcontent2 .show {
+    display: block;
+}
+
+.tabcontent2 .hide {
+    display: none;
+}
+
+
+.btn_Submit1 {
+    line-height: 40px;
+    padding: 0 33px;
+    font-family: century gothic;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border-radius: 1px;
+    border: 3px solid white;
+    background-color: #3A003A;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.btn_Submit1:hover {
+    background-color: white;
+    color: #3A003A;
+    border: 3px solid white;
+}
+
+.btn_Submit {
+    line-height: 40px;
+    padding: 0 33px;
+    font-family: century gothic;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border-radius: 1px;
+    border: 3px solid #3A003A;
+    background-color: #3A003A;
+    width: 98%;
+    transition: 0.3s;
+}
+
+.btn_Submit:hover {
+    background-color: white;
+    color: #3A003A;
+    border: 3px solid #3A003A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.boximage{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.clearfix{
+  margin: auto;
+  width: 80%;
+  padding-left: 50px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+}
+
+input[type=password] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
+
+.header {
+    background: #3A003A;
+    height: 60px;
+    position: relative;
+    z-index: 100;
+}
+
+.site-name-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.site-name {
+    color: #FCDD44;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.site-name:hover,
+.site-name:focus {
+    color: #FF720B;
+}
+
+.nav {
+    display: block;
+    overflow: hidden;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+}
+
+.nav li a {
+    color: white;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.nav li a.active,
+.nav li a:focus,
+.nav li a:hover {
+    color: #FCDD44;
+
+}
+
+.white-bg {
+    background-color: transparent;
+}
+
+.section-padding-bottom {
+    padding-bottom: 60px;
+}
+
+.col-2 {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.purple-bg {
+    background-color: #7A378B;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+.row1 {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.col-lg-6,
+.col-md-4,
+.col-md-8,
+.col-sm-3,
+.col-sm-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width:768px) {
+    .col-sm-3,
+    .col-sm-9 {
+        float: left
+    }
+    .col-sm-9 {
+        width: 75%
+    }
+    .col-sm-3 {
+        width: 25%
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-4,
+    .col-md-8 {
+        float: left
+    }
+    .col-md-8 {
+        width: 66.66666667%
+    }
+    .col-md-4 {
+        width: 33.33333333%
+    }
+}
+
+@media (min-width:1200px) {
+    .col-lg-6 {
+        float: left
+    }
+    .col-lg-6 {
+        width: 50%
+    }
+}
+
+.tabcontent3 {
+    display: none;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent3 {
+    background: #CD5C5C;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height: 580px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontent3 form {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.tabcontent3 form input[type=text],
+.tabcontent3 form input[type=password],
+.tabcontent3 form input[type=submit] {
+
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.tabcontent3 form input[type=text],
+.tabcontent3 form input[type=password] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent3 form select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 3px;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent3 form input.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 3px 1px #2075aa;
+    -webkit-box-shadow: 0px 3px 1px #2075aa;
+    box-shadow: 0px 3px 1px #2075aa;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.tabcontent3 form input.button:hover {
+    background: #1e75aa;
+    -moz-box-shadow: 0 3px 1px #237bb2;
+    -webkit-box-shadow: 0 3px 1px #237bb2;
+    box-shadow: 0 3px 1px #237bb2;
+}
+
+.tabcontent3 form input.button:active {
+    background: #136899;
+    @inclue box-shadow( 0 3px 1px #0f608c);
+}
+
+.tabcontent3 .show {
+    display: block;
+}
+
+.tabcontent3 .hide {
+    display: none;
+}
+
+.tabcontent4 {
+    display: none;
+    padding: 15px 25px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent4 {
+    background: #3A003A;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height: 1080px;
+    border-radius: 5px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontent4 form {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.tabcontent4 form input[type=text],
+.tabcontent4 form input[type=password],
+.tabcontent4 form input[type=submit] {
+
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.tabcontent4 form input[type=text],
+.tabcontent4 form input[type=password] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent4 form input.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 3px 1px #2075aa;
+    -webkit-box-shadow: 0px 3px 1px #2075aa;
+    box-shadow: 0px 3px 1px #2075aa;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.tabcontent4 form input.button:hover {
+    background: #1e75aa;
+    -moz-box-shadow: 0 3px 1px #237bb2;
+    -webkit-box-shadow: 0 3px 1px #237bb2;
+    box-shadow: 0 3px 1px #237bb2;
+}
+
+.tabcontent4 form input.button:active {
+    background: #136899;
+    @inclue box-shadow( 0 3px 1px #0f608c);
+}
+
+.tabcontent4 .show {
+    display: block;
+}
+
+.tabcontent4 .hide {
+    display: none;
+}
+
+.tabcontentsubject {
+    display: none;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontentsubject {
+    background: #3A003A;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height: 870px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontentsubject form {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.tabcontentsubject form input[type=text],
+.tabcontentsubject form input[type=password],
+.tabcontentsubject form input[type=submit] {
+
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.tabcontentsubject form input[type=text],
+.tabcontentsubject form input[type=password] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontentsubject form select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 3px;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontentsubject form input.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 3px 1px #2075aa;
+    -webkit-box-shadow: 0px 3px 1px #2075aa;
+    box-shadow: 0px 3px 1px #2075aa;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.tabcontentsubject form input.button:hover {
+    background: #1e75aa;
+    -moz-box-shadow: 0 3px 1px #237bb2;
+    -webkit-box-shadow: 0 3px 1px #237bb2;
+    box-shadow: 0 3px 1px #237bb2;
+}
+
+.tabcontentsubject form input.button:active {
+    background: #136899;
+    @inclue box-shadow( 0 3px 1px #0f608c);
+}
+
+.tabcontentsubject .show {
+    display: block;
+}
+
+.tabcontentsubject .hide {
+    display: none;
+}
+
+.tabcontent23 {
+    display: none;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent23 {
+    background: #3A003A;
+    color: white;
+    margin: 25px auto;
+    width: 620px;
+    height:350px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.tabcontent23 form {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.tabcontent2 form input[type=text],
+.tabcontent2 form input[type=password],
+.tabcontent2 form input[type=submit] {
+
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.tabcontent23 form input[type=text],
+.tabcontent23 form input[type=password] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent23 form select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 3px;
+    color: #1A1A1A;
+    outline: none;
+	font-weight: bold;
+}
+
+.tabcontent23 form input.button {
+    border: none;
+    display: block;
+    background: #136899;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 3px 1px #2075aa;
+    -webkit-box-shadow: 0px 3px 1px #2075aa;
+    box-shadow: 0px 3px 1px #2075aa;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.tabcontent23 form input.button:hover {
+    background: #1e75aa;
+    -moz-box-shadow: 0 3px 1px #237bb2;
+    -webkit-box-shadow: 0 3px 1px #237bb2;
+    box-shadow: 0 3px 1px #237bb2;
+}
+
+.tabcontent23 form input.button:active {
+    background: #136899;
+    @inclue box-shadow( 0 3px 1px #0f608c);
+}
+
+.tabcontent23 .show {
+    display: block;
+}
+
+.tabcontent23 .hide {
+    display: none;
+}

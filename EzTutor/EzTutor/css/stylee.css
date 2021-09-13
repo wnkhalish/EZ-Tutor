@@ -1,0 +1,872 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url('../fonts/montserrat/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+}
+
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: #1abc9c;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    color: #333333;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+
+#main {
+    margin: 30px 0;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.col-md-1 {
+    width: 75%
+}
+
+.col-md-2 {
+    width: 100%
+}
+
+.col-md-3 {
+    width: 25%
+}
+
+.main-color {
+    color: #1abc9c;
+}
+
+.page-body {
+    background: #ffffff;
+    box-shadow: -2px -1px 88px 0px rgba(0, 0, 0, 0.17);
+}
+
+.sub-title {
+    padding: 30px;
+}
+
+.sub-title h2 {
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.sub-title i {
+    float: right;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.content-page {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-top: 1px dashed #dedede;
+    border-bottom: 1px dashed #dedede;
+}
+
+.my-pic {
+    width: 100%;
+    box-shadow: -2px -1px 88px 0px rgba(0, 0, 0, 0.17);
+}
+
+.my-pic img {
+    width: 100%;
+}
+
+.my-detail {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: -2px -1px 88px 0px rgba(0, 0, 0, 0.17);
+}
+
+.my-detail .white-spacing {
+    padding: 23px 0;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.my-detail h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.my-detail span {
+    color: #c1c1c1;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.section-inner {
+  background: #fff;
+  padding: 30px;
+}
+.testimonials .item {
+  margin-bottom: 30px;
+}
+.testimonials .item:last-child {
+  margin-bottom: 0;
+}
+.testimonials .item .quote {
+  color: #666666;
+  font-size: 16px;
+  border-left-color: #9fdeb7;
+  margin-bottom: 15px;
+}
+.testimonials .item .quote .fa {
+  color: #79d19a;
+  margin-right: 15px;
+}
+.testimonials .item .source {
+  font-size: 14px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+.testimonials .item .source .name {
+  color: #939ea9;
+  font-weight: 600;
+}
+.testimonials .item .source .title {
+  color: #999999;
+}
+
+.social-icon {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon:before,
+.social-icon:after {
+    content: " ";
+    display: table;
+}
+
+.social-icon:after {
+    clear: both;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: 2px 4px;
+}
+
+.social-icon li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    border: 0 none;
+    border-radius: 50%;
+    font-size: 17px;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon li a:hover {
+    box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.33);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.linkedin {
+    background-color: #1da1f2;
+}
+
+.envelope {
+    background-color: #FF0000;
+}
+
+.whatsapp {
+    background-color: #32CD32;
+}
+
+#myBtn {
+    display: none;
+    font-size: 40px;
+    color: #800080;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+}
+
+#myBtn:hover {
+    color: #333333;
+}
+
+.header1 {
+    background: #3A003A;
+    height: 60px;
+    position: relative;
+    z-index: 100;
+	font-size: 14px;
+}
+
+
+.white-bg {
+    background-color: #fff;
+}
+
+.section-padding-bottom {
+    padding-bottom: 60px;
+}
+
+.col-2 {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.purple-bg {
+    background-color: #7A378B;
+}
+
+.container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:768px) {
+    .container1 {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container1 {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container1 {
+        width: 1170px
+    }
+}
+
+.row1 {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.col-lg-6,
+.col-md-4,
+.col-md-8,
+.col-sm-3,
+.col-sm-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width:768px) {
+    .col-sm-3,
+    .col-sm-9 {
+        float: left
+    }
+    .col-sm-9 {
+        width: 75%
+    }
+    .col-sm-3 {
+        width: 25%
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-4,
+    .col-md-8 {
+        float: left
+    }
+    .col-md-8 {
+        width: 66.66666667%
+    }
+    .col-md-4 {
+        width: 33.33333333%
+    }
+}
+
+@media (min-width:1200px) {
+    .col-lg-6 {
+        float: left
+    }
+    .col-lg-6 {
+        width: 50%
+    }
+}
+/*Calender*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    border-color: transparent !important;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container-form {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-form {
+    width: 920px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.book-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-form-title {
+    display: block;
+    width: 100%;
+    font-family: Montserrat-Black;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.label-title {
+    font-family: Montserrat-SemiBold;
+    font-size: 10px;
+    color: #393939;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 15px;
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+
+}
+
+/* The container Tick Box */
+.containerC {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerC input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmarkk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: gray;
+}
+
+/* On mouse-over, add a grey background color */
+.containerC:hover input ~ .checkmarkk {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerC input:checked ~ .checkmarkk {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkk:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerC input:checked ~ .checkmarkk:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerC .checkmarkk:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+input[type='checkbox']:after{
+  content: '';
+}
+
+
+main {
+    grid-area: content;
+}
+
+.calendar {}
+
+.week,
+.header2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.week {
+    grid-auto-rows: 33px;
+    text-align: right;
+}
+
+.header2 {
+    grid-auto-rows: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.day {
+    padding: 9px;
+    grid-auto-columns: 20px;
+}
+
+
+main {
+    background-color: #FCFBFC;
+}
+
+.calendar {
+    background-color: white;
+    border: 1.5px solid #e1e1e1;
+}
+
+.header2 > div {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    background-color: #ddd;
+    color: #666;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.day {
+    background: #eee;
+    color: #777;
+}
+
+.day .active {
+    padding: 0px 39px;
+    background: #1abc9c;
+    color: white !important
+}
+.container2 {
+  padding: 16px;
+  background-color: white;
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+    border-radius: 4px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+border-radius: 4px;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.updatebtn {
+  background-color: #7F00FF;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.updatebtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+
+
+.row3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+select {
+    width: 100%;
+    background: transparent;
+    color: #1A1A1A;
+    border: none;
+    display: inline-block;
+    font: inherit;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 5px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   margin: 5px 0 22px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+	 background-color: #ddd;
+  outline: none;
+border-radius: 4px;
+}
+
+select.minimal:focus {
+    background-image: linear-gradient(45deg, #ccc 50%, transparent 50%), linear-gradient(135deg, transparent 50%, #ccc 50%);
+    background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: white;
+    color: black;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid white;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    border: none;
+    outline: none;
+
+}
+.overlay {
+	background-color: rgba(1, 152, 100, 0.35);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+.overlay:hover { background-color: rgba(4, 152, 114, 0); }
+.photo-container { position: relative; }
+
+.submit-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    line-height: 1.2;
+    transition: all 0.4s;
+
+    background-color: #847bba;
+    background-image: linear-gradient(to bottom, #847bba, #7568ba);
+    border: 1px solid #493e87;
+    box-shadow: inset 0 1px 0 #bab6d4, inset 0 -1px 0 #655aa1, inset 0 0 0 1px #948dba, 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.submit-btn i {
+    transition: all 0.4s;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+  background: #7568ba;
+  border-color: #1f1654;
+  box-shadow: inset 0 1px 0 #bab6d4, inset 0 -1px 0 #655aa1, inset 0 0 0 1px #948dba;
+}
+
+.submit-btn:hover i {
+    transform: translateX(10px);
+}
+
+.submit-btn:active {
+  background: #7568ba;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.submit-btn .fa {
+  color: #493e87;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btnupload {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+ float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }

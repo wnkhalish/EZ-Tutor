@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/plugin.css">
+    <link rel="stylesheet" type="text/css" href="css/login4.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-3 site-name-container">
+                    <a href="#" class="site-name">EZ TUTOR</a>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-9">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                            <li><a href="">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="list-request">
+        <h3 class="inline-block">FILL UP SUBJECT DETAILS</h3>
+      </div><br><br>
+    <section class="white-bg section-padding-bottom">
+        <div class="section-header section-margin-top">
+
+            <div class="form">
+                <ul class="tabs">
+                    <li><a class="tablinks" onclick="openTab(event, 'Profile')" class="active">PROFILE</a></li>
+                </ul>
+
+                <div id="Profile" class="tabcontent2 show">
+                    <form>
+                      <label for='user'>Subject</label>
+                      <select name="subject" class="minimal">
+                        <option selected="" value="Default">Subject</option>
+                        <option value="">Bahasa Melayu</option>
+                        <option value="">English</option>
+                        <option value="">Pendidikan Islam</option>
+                        <option value="">Pendidikan Moral</option>
+                        <option value="">Sejarah</option>
+                        <option value="">Mathematics</option>
+                        <option value="">Science</option>
+                        <option value="">Additional Mathematics</option>
+                        <option value="">Physics</option>
+                        <option value="">Chemistry</option>
+                        <option value="">Biology</option>
+                        <option value="">Bahasa Arab</option>
+                      </select>
+
+                      <label for='user'>Level</label>
+                      <select name="level" class="minimal">
+                        <option selected="" value="Default">Level</option>
+                        <option value="1">UPSR</option>
+                        <option value="2">PT3</option>
+                        <option value="3">SPM</option>
+                      </select>
+
+                      <label for='user'>Qualification</label>
+                      <select name="qualification" class="minimal">
+                        <option selected="" value="Default">Qualification</option>
+                        <option value="1">Masters/PhD</option>
+                        <option value="2">Bachelor Degree</option>
+                        <option value="3">Diploma</option>
+                        <option value="4">STPM/Certificate</option>
+                        <option value="5">SRP/PMR/SPM</option>
+                        <option value="6">Others</option>
+                      </select>
+                      <div class="row">
+                          <div class="col-75">
+                              <div class="row">
+                                  <div class="col-50">
+                                      <label for="user">Teaching Since</label>
+                                      <select name="state" class="minimal">
+                                        <option selected="" value="Default">Year</option>
+                                        <option value="1">2019</option>
+                                        <option value="2">2018</option>
+                                        <option value="3">2017</option>
+                                        <option value="4">2016</option>
+                                        <option value="5">2015</option>
+                                        <option value="6">2014</option>
+                                        <option value="7">2013</option>
+                                        <option value="8">2012</option>
+                                        <option value="9">2011</option>
+                                        <option value="10">2010</option>
+                                        <option value="11">2009</option>
+                                        <option value="12">2007</option>
+                                        <option value="13">2008</option>
+                                      </select>
+                                      <br>
+                                  </div>
+
+                                  <div class="col-50">
+                                      <label for="user">Rate Per Month</label>
+                                      <input type='text' id='umail' name='umail' value="RM" />
+                                  </div>
+
+                                  <div class="col-50">
+                                      <label for="user">Prefered State</label>
+                                      <select name="state" class="minimal">
+                                        <option selected="" value="Default">State</option>
+                                        <option value="1">Johor</option>
+                                        <option value="2">Kedah</option>
+                                        <option value="3">Kelantan</option>
+                                        <option value="4">Malacca</option>
+                                        <option value="5">Negeri Sembilan</option>
+                                        <option value="6">Pahang</option>
+                                        <option value="7">Penang</option>
+                                        <option value="8">Perak</option>
+                                        <option value="9">Perlis</option>
+                                        <option value="10">Sabah</option>
+                                        <option value="11">Sarawak</option>
+                                        <option value="12">Selangor</option>
+                                        <option value="13">Terengganu</option>
+                                      </select>
+                                  </div>
+                              </div>
+                              <label for="user">Prefered Time</label>
+                              <div class="calendar">
+                                  <div class="header2">
+                                      <div>time</div>
+                                      <div>mon</div>
+                                      <div>tue</div>
+                                      <div>wed</div>
+                                      <div>thu</div>
+                                      <div>fri</div>
+                                      <div>sat</div>
+                                      <div>sun</div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>9:00</span>am</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                          <div class="day"><label class="containerC">
+                                              <input type="checkbox">
+                                              <span class="checkmarkk"></span>
+                                            </label></div>
+                                            <div class="day"><label class="containerC">
+                                                <input type="checkbox">
+                                                <span class="checkmarkk"></span>
+                                              </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>10:00</span>am</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>11:00</span>am</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>12:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                          <div class="day"><label class="containerC">
+                                              <input type="checkbox">
+                                              <span class="checkmarkk"></span>
+                                            </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>1:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>2:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>3:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>4:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>5:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                          <div class="day"><label class="containerC">
+                                              <input type="checkbox">
+                                              <span class="checkmarkk"></span>
+                                            </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>6:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>7:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>8:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                          <div class="day"><label class="containerC">
+                                              <input type="checkbox">
+                                              <span class="checkmarkk"></span>
+                                            </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                                  <div class="week">
+                                      <div class="day"><span>9:00</span>pm</div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                        <div class="day"><label class="containerC">
+                                            <input type="checkbox">
+                                            <span class="checkmarkk"></span>
+                                          </label></div>
+                                      <div class="day"><label class="containerC">
+                                          <input type="checkbox">
+                                          <span class="checkmarkk"></span>
+                                        </label></div>
+                                  </div>
+                              </div><br>
+                              <input type="submit" value="Submit" class="button" />
+                          </div>
+                      </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent2, tablinks;
+            tabcontent2 = document.getElementsByClassName("tabcontent2");
+            for (i = 0; i < tabcontent2.length; i++) {
+                tabcontent2[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
